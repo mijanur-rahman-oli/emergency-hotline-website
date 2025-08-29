@@ -81,7 +81,7 @@ function calling(callButtonId, numberId, serviceNo) {
         coins = coins - 20;
         coinCount.textContent = coins;
         alert(`📞Calling ${service} at ${number} `);
-       
+
         const li = document.createElement("li");
         li.className = "flex justify-between items-center p-2 bg-gray-50";
         li.innerHTML = `
